@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    /* background: #E5E5E5; */
+}
+body
+{
+    /* background-color: #0F124D; */
+}
+.header
+{
+    background-color: #0F124D;
+    max-width: 1480px;
+    height: 524px;
+}
+.hero-section
+{
+    margin-top: 50px;
+}
+.hero-section-text >h1
+{
+    width: 658px;
+    height: 56px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    /* identical to box height, or 117% */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.hero-section-text >p
+{
+    width: 655px;
+    height: 81px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #E1E1E1;
+}
+.hero-section-btn
+{
+    width: 280px;
+    height: 64px;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+    border-radius: 70px;
+    margin-top: 30px;
+}
+.hero-section-parent >img
+{
+    position: absolute;
+    left:800px;
+    bottom: 130px;
+    width: 510px;
+    height: 450px;
+    
+}
+.banner-section
+{
+    /* background-color: #F5F6FB80; */
+    margin-top: 0;
+}
+.banner-section-img >img
+{
+    width: 605px;
+    height: 466px;
+}
+.banner-section-parent
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-start;
+    gap: 100px;
+}
+.banner-section-text >p
+{
+    margin-top: 50px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 20px;
+text-transform: uppercase;
+
+/* gr1 */
+
+background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.banner-section-text >h1
+{
+    height: 82px;
+    width: 429px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 41px;
+text-transform: capitalize;
+
+
+}
+.para
+{
+    height: 50px;
+    /* width: 100px; */
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #979797;
+    /* border: 1px solid red; */
+    /* background-color: transparent; */
+
+
+}
+.btn1
+{
+    width: 164px;
+    height: 53px;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.pakges-section-text >h1
+{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #262626;
+}
+.pakges-img-section
+{
+    display: flex;
+}
+.card1
+{
+    height: 800px;
+    border: 2px solid red;
+     background: #FCFAED;
+    
+}
+.offer-section
+{
+    margin-top: 80px;
+}
+.offer-section-text >p
+{
+    /* margin-top: 0px; */
+    /* height: 40px; */
+    width: 360px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #979797;
+    /* border: 2px solid red; */
+
+
+}
+.offer-section-text >h1
+{
+    /* height: 82px; */
+    width: 400px;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.offer-section-parent
+{
+    display: flex;
+    gap: 80px;
+}
+.site-content-text >h1
+{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    
+    color: #0B132A;
+    margin-top: 0%;
+    height: 28px;
+    /* width: 280px; */
+
+
+}
+.site-content-text >p
+{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center; 
+    color: #979797;
+    height: 20px; 
+}
+.logo1
+{
+    width: 88px;
+    height: 88px;
+    background: linear-gradient(96.97deg, #F79E0E 7.82%, #EEBD23 103.98%);
+    border-radius: 110px;
+    margin-left: 300px;
+    position: relative;
+}
+.logo1 >img
+{
+    /* margin-left: 300px; */
+    border :1px solid red;
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
